@@ -1,0 +1,31 @@
+﻿<Window x:Class="SaleWPFApp.AdminStudentCreate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SaleWPFApp"
+        mc:Ignorable="d"
+        Title="Student" Height="500" Width="600"
+        Loaded="Window_Loaded">
+    <Window.Resources>
+        <ResourceDictionary Source="StyleResource.xaml"></ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <StackPanel>
+            <TextBlock Margin="0 10 0 20"  FontWeight="Light" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Style="{StaticResource ResourceKey=headingPrimary}">
+              Student Control
+            </TextBlock>
+            <StackPanel Background="white" Width="440" Height="337">
+                <Label Content="Id" x:Name="labelId" Visibility="Collapsed" IsEnabled="False" Style="{StaticResource ResourceKey=labelPrimary}"/>
+                <TextBox x:Name="txtBoxId" Margin="0 0 0 5" Visibility="Collapsed" IsEnabled="False" Style="{StaticResource ResourceKey=texboxPrimary}"/>
+                <Label Content="LastName" Style="{StaticResource ResourceKey=labelPrimary}"/>
+                <TextBox x:Name="txtBoxLastName" Margin="0 0 0 5" Style="{StaticResource ResourceKey=texboxPrimary}"/>
+                <Label Content="FirstMidName" Style="{StaticResource ResourceKey=labelPrimary}"/>
+                <TextBox x:Name="txtBoxFirstMidName" Margin="0 0 0 5" Style="{StaticResource ResourceKey=texboxPrimary}"/>
+                <Label Content="EnrollmentDate" Style="{StaticResource ResourceKey=labelPrimary}"/>
+                <DatePicker x:Name="txtBoxDate" Width="440" Height="35" Margin="0 0 5 0"/>
+                <Button x:Name="btn" Content="Create" Style="{StaticResource ResourceKey=btnPrimary}" Width="100" Margin="0 10 0 5" Click="Button_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

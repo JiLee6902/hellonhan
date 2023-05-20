@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="AdminCourse.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminCourseCreate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminEnrollment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminEnrollmentCreate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminStudent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminStudentCreate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AdminCourse.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminCourseCreate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminEnrollment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminEnrollmentCreate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminManager.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminStudent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminStudentCreate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
